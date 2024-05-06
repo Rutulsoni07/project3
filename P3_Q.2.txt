@@ -1,0 +1,23 @@
+Q.2 Write a Program to count the total number of digits in a number.
+ input=
+
+#include <stdio.h>
+int main() {
+  
+ int count=0,number;
+   printf("enter any number:");
+    scanf("%d",&number);
+do{
+    number/=10;
+    count++;
+}
+ while(number!=0);
+ 
+printf("number of digits: %d",count);
+    return 0;
+}
+
+output=
+
+enter any number:14
+number of digits: 2

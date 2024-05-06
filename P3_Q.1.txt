@@ -1,0 +1,26 @@
+Q.1 Write a Program to print all alphabets from a to z by skipping 3 alphabets using do do-while loop.
+
+input=
+#include <stdio.h>
+int main() {
+    //for loop
+//   for(char ch='a'; ch<='z';ch+=4){
+//       printf("%c\n",ch);
+//   }
+char ch='a';
+do{
+    printf("%c\n",ch);
+    ch+=4;
+}while(ch<='z');
+
+    return 0;
+}
+
+output=
+a
+e
+i
+m
+q
+u
+y
